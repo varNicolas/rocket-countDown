@@ -1,0 +1,115 @@
+/****************************** RESET ******************************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+* {
+  border: none;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html,
+body {
+  font-family: Poppins, sans-serif;
+  overflow: hidden;
+}
+:root {
+  --black: #4d4c59;
+  --light-grey: #c8c8c8;
+  --purple: #6c63ff;
+  --text-color: #9c9ab6;
+
+  font-size: 62.5%;
+}
+
+/****************************** IMG TOP ******************************/
+
+#tagImgTop {
+  width: 100%;
+}
+
+/****************************** MAIN******************************/
+.container {
+  align-items: center;
+  display: flex;
+  gap: 8.2rem;
+  justify-content: center;
+}
+h1 {
+  color: var(--purple);
+  font-size: 3.6rem;
+  font-weight: 700;
+  line-height: 5.4rem;
+  margin-bottom: 1.9rem;
+  text-transform: uppercase;
+  letter-spacing: .6rem;
+}
+.countDown {
+  display: flex;
+  justify-content: center;
+}
+.dataDefinition {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.dataDefinition .stringDay {
+  color: var(--light-grey);
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+}
+.dataDefinition .number {
+  font-size: 7.2rem;
+  font-weight: 400;
+  line-height: 10.8rem;
+}
+.dataPoint {
+  align-items: center;
+  display: flex;
+}
+.dataPoint .number {
+  font-size: 7.2rem;
+  font-weight: 400;
+  line-height: 10.8rem;
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+#paragraphy {
+  color: var(--text-color);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  text-align: center;
+}
+button#button{
+  background-color: var(--purple);
+  border-radius: 1rem;
+  color: #fff;
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 400;
+  height: 4.6rem;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  margin-top: 3.1rem;
+  text-align: center;
+  width: 16rem;
+  cursor: pointer;
+  transition-duration: 500ms;
+  text-transform: uppercase;
+}
+button#button:hover{
+  background-color: #6b63ffc2;
+}
+#tagRigthImg {
+  height: 43.5rem;
+  width: 60.7rem;
+}
+
+/****************************** IMG BOTTOM ******************************/
+
+#tagImgBottom {
+  width: 100%;
+}

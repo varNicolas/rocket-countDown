@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="topImage">
+      <img id="tagImgTop" src="assets/images/top-image.svg" alt="" />
+    </div>
+    <main class="container">
+      <div class="mainLeft">
+        <h1>Ready to launch in...</h1>
+        <div class="countDown">
+          <div class="dataDefinition">
+            <p class="stringDay">Days</p>
+            <p id="day" class="number">00</p>
+          </div>
+          <div class="dataPoint">
+            <p class="number">:</p>
+          </div>
+          <div class="dataDefinition">
+            <p class="stringDay">Hours</p>
+            <p id="hours" class="number">00</p>
+          </div>
+          <div class="dataPoint"><p class="number">:</p></div>
+          <div class="dataDefinition">
+            <p class="stringDay">Minutes</p>
+            <p id="minutes" class="number">00</p>
+          </div>
+          <div class="dataPoint"><p class="number">:</p></div>
+          <div class="dataDefinition">
+            <p class="stringDay">Seconds</p>
+            <p id="seconds" class="number">00</p>
+          </div>
+        </div>
+        <p id="paragraphy">
+          Subscribe to receive rocket launch notifications</p>
+        <button onclick="playCountDown()" id="button">Show the timer</button>
+      </div>
+      <div class="mainRigth-IMG">
+        <img id="tagRigthImg" src="assets/images/rocket.svg" alt="" />
+      </div>
+    </main>
+    <div class="bottomImage">
+      <img id="tagImgBottom" src="assets/images/bottom-image.svg" alt="" />
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
